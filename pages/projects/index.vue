@@ -24,7 +24,7 @@
       </div>
       <div class="second-project-box">
         <div class="project-box">
-          <h4>Tracalorie-Meal Calorie Tracker App</h4>
+          <h4>Tracalorie App</h4>
           <a href="https://tracalorie-meal-calorie-tracker.netlify.app/">
             <i class="fas fa-eye"></i> <p class="link">Preview</p> 
           </a>
