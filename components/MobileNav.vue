@@ -6,11 +6,13 @@
 
 <style scoped>
   .mobile-nav {
+    z-index: 1;
     background: black;
     position: absolute;
     opacity: 0.8;
-    transition: 750ms ease;
     width: 45%;
     height: 99vh;
+    /* transform: translateX(-100%);
+    transition: 500ms ease-in-out; */
   }
 </style>

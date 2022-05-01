@@ -28,5 +28,6 @@
     height: 100vh;
     text-align: center;
     padding-top: 1px;
+    font-family: 'Open Sans', sans-serif;
   }
 </style>

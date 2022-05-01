@@ -65,16 +65,20 @@
 
   .projects-container {
     width: 75%;
+    height: 17.5rem;
     margin: 0 auto;
   }
 
   .first-project-box {
     display: flex;
     justify-content: space-between;
+    height: 7.5rem;
   }
 
   .project-box {
-    background: url('~/assets/img/project-1.jpg');
+    background: 
+      linear-gradient(to right, rgba(29, 29, 29, 0.329), rgba(73, 73, 73, 0.192)), 
+      url('~/assets/img/project-1.jpg');
     background-size: cover;
     width: 22.5%;
     height: 6rem;
@@ -82,13 +86,13 @@
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0px 0px 18px 6px rgb(26, 26, 26);
+    transition: 500ms ease-in-out;
   }
 
   .project-box:hover {
-    background: 
-      linear-gradient(to right, rgba(39, 39, 39, 0.35), rgba(255, 255, 255, 0.192)), 
-      url('~/assets/img/project-1.jpg');
-    background-size: cover;
+    width: 25%;
+    height: 7rem;
+    transition: 500ms ease-in-out;
   }
 
   h4 {
@@ -117,15 +121,16 @@
 
   .link {
     transition: all 0.5s ease-in-out;
+    color: rgb(233, 233, 233);
   }
 
   .link:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.45rem;
     transition: all 0.5s ease-in-out;
   }
 
   .second-project-box {
-    border: 2px solid rgb(0, 63, 11);
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
@@ -143,6 +148,7 @@
     .projects-container {
       display: flex;
       justify-content: space-between;
+      height: fit-content;
     }
 
     .first-project-box {
@@ -150,11 +156,19 @@
       justify-content: center;
       align-content: center;
       width: 45%;
+      height: fit-content;
     }
 
     .project-box {
-      width: 98%;
+      width: 70%;
+      margin: 0 auto;
       margin-bottom: 2rem;
+    }
+
+    .project-box:hover {
+      width: 75%;
+      height: 7rem;
+      transition: 500ms ease-in-out;
     }
 
     .last-box {

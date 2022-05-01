@@ -16,6 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .about-layout .header-component {

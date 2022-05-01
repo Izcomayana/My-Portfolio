@@ -25,6 +25,7 @@
     height: 100vh;
     color: white;
     padding-top: 1px;
+    font-family: 'Open Sans', sans-serif;
   }
 
   @media (max-width: 768px) {

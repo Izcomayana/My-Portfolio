@@ -18,6 +18,7 @@
 
 <style scoped>
   .projects-layout {
+    font-family: 'Open Sans', sans-serif;
     background: 
       linear-gradient(to right, rgba(39, 39, 39, 0.35), rgba(94, 94, 94, 0.192)), 
       url('~/assets/img/project-2.jpg') center top;

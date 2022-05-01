@@ -12,17 +12,20 @@
 
         <div class="contact-box contact-phone">
           <span class="contacts-head">
+            <i class="fas fa-envelop"></i> <h3>Resume Link:</h3> 
+            <div class="text-secondary">
+              <a href="https://docs.google.com/document/d/1FpB4iGBT0HjCdzvGCbtzdfSfCcu8itZL6YQVXJiu9lI/edit?usp=sharing" 
+              download="CV">Oluwapelumi-CV</a></div>
+          </span> 
+        </div>
+
+        <div class="contact-box contact-phone">
+          <span class="contacts-head">
             <i class="fas fa-envelop"></i> <h3>Mobile No:</h3> 
             <div class="text-secondary">08036567514</div>
           </span> 
         </div>
 
-        <div class="contact-box contact-address">
-          <span class="contacts-head">
-            <i class="fas fa-envelop"></i> <h3>Address:</h3>
-            <div class="text-secondary">123 First <Small>t. Houston, Texas</Small></div>
-          </span>
-        </div>
       </div>
   </div>
 </template>
@@ -56,6 +59,24 @@
 
   .text-secondary {
     font-size: 1.15rem;
+  }
+
+  .text-secondary a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 500ms ease-in-out;
+  }
+
+  .text-secondary a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 500ms ease-in-out;
   }
 
   @media (max-width: 600px) {

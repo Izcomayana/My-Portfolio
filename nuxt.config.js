@@ -15,7 +15,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" }
     ]
   },
 
@@ -23,6 +24,13 @@ export default {
   css: [
     '~/assets/styles/main.css'
   ],
+
+  layoutTransition: "fade",
+
+  // layoutTransition: {
+  //   name: "fade",
+  //   mode: "out-in"
+  // },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -50,8 +58,5 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  pageTransition: {
-    name: 'fade',
-    mode: 'out-in'
-  }
+  
 }

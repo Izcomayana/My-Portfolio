@@ -3,10 +3,16 @@ html, body {
   padding: 0;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+.fade-enter-active,
+.fade-leave-active {
+  /* transition: opacity 500ms; */
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-active {
   opacity: 0;
 }
+

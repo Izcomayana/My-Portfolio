@@ -37,7 +37,6 @@
       height: 25px;
       width: 35px;
       cursor: pointer;
-      transition: all 0.5s ease;
     }
 
     .hamburger {
@@ -47,7 +46,7 @@
       width: 30px;
       height: 3px;
       background: rgb(255, 255, 255);
-      transition: 0.5s ease;
+      transition: 500ms ease-in-out;
       display: block;
     }
 
@@ -59,7 +58,7 @@
       width: 30px;
       height: 3px;
       background: rgb(255, 255, 255);
-      transition: all 0.5s ease;
+      transition: 500ms ease-in-out;
     }
 
     .hamburger::after {
@@ -70,24 +69,24 @@
       width: 30px;
       height: 3px;
       background: rgb(255, 255, 255);
-      transition: all 0.5s ease;
+      transition: 500ms ease
     }
 
     .open {
       transform: rotate(360deg);
       background: transparent;
-      transition: all 750ms ease;
+      transition: 500ms ease-in-out;
     }
 
     .open::before {
       transform: rotate(45deg) translate(5px, 8px);
-      transition: all 750ms ease;
+      transition: 500ms ease-in-out;
     }
 
     .open::after {
       width: 30px;
       transform: rotate(-45deg) translate(3px, -7px);
-      transition: all 750ms ease;
+      transition: 500ms ease-in-out;
     }
 
   }
