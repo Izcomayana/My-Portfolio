@@ -3,19 +3,19 @@
     <h1>My Projects</h1>
     <div class="projects-container">
       <div class="first-project-box">
-        <div class="project-box">
+        <div class="project-box number-guesser">
           <h4>Number Guesser Game</h4>
           <a href="https://the-number-guesser-game.netlify.app/"> 
             <i class="fas fa-eye"></i> <p class="link">Preview</p> 
           </a>
         </div>
-        <div class="project-box">
+        <div class="project-box tasklist">
           <h4>Tasklist</h4>
           <a href="https://mayana-tasklist.netlify.app/"> 
             <i class="fas fa-eye"></i> <p class="link">Preview</p>
           </a> 
         </div>
-        <div class="project-box last-box">
+        <div class="project-box bookmark last-box">
           <h4>Bookmark</h4>
           <a href="https://mayana-bookmark-app.netlify.app/"> 
             <i class="fas fa-eye"></i> <p class="link">Preview</p> 
@@ -23,20 +23,21 @@
         </div>
       </div>
       <div class="second-project-box">
-        <div class="project-box">
+        <div class="project-box tracalorie">
           <h4>Tracalorie App</h4>
           <a href="https://tracalorie-meal-calorie-tracker.netlify.app/">
             <i class="fas fa-eye"></i> <p class="link">Preview</p> 
           </a>
         </div>
-        <div class="project-box">
+        <div class="project-box loan-calculator">
           <h4>Loan Calculator</h4>
           <a href="https://mayana-loan-calculator.netlify.app/">
             <i class="fas fa-eye"></i> <p class="link">Preview</p> 
           </a>
         </div>
-        <div class="project-box last-box">
-          <a href=""> 
+        <div class="project-box movie-app last-box">
+          <h4>Movie App</h4>
+          <a href="https://techkid-movie-app.netlify.app/"> 
             <i class="fas fa-eye"></i> <p class="link">Preview</p> 
           </a>
         </div>
@@ -87,6 +88,42 @@
     border-radius: 10px;
     box-shadow: 0px 0px 18px 6px rgb(26, 26, 26);
     transition: 500ms ease-in-out;
+  }
+
+  .number-guesser {
+    background: 
+      linear-gradient(to right, rgba(29, 29, 29, 0.329), rgba(73, 73, 73, 0.192)), 
+      url('~/assets/img/number-guesser.png');
+  }
+
+  .tasklist {
+    background: 
+      linear-gradient(to right, rgba(29, 29, 29, 0.329), rgba(73, 73, 73, 0.192)), 
+      url('~/assets/img/tasklist.png');
+  }
+
+  .bookmark {
+    background: 
+      linear-gradient(to right, rgba(29, 29, 29, 0.329), rgba(73, 73, 73, 0.192)), 
+      url('~/assets/img/bookmark.png');
+  }
+
+  .tracalorie {
+    background: 
+      linear-gradient(to right, rgba(29, 29, 29, 0.329), rgba(73, 73, 73, 0.192)), 
+      url('~/assets/img/tracalorie.png');
+  }
+
+  .loan-calculator {
+    background: 
+      linear-gradient(to right, rgba(29, 29, 29, 0.329), rgba(73, 73, 73, 0.192)), 
+      url('~/assets/img/loan-calculator.png');
+  }
+
+  .movie-app {
+    background: 
+      linear-gradient(to right, rgba(29, 29, 29, 0.329), rgba(73, 73, 73, 0.192)), 
+      url('~/assets/img/movie-app.png');
   }
 
   .project-box:hover {

@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div class="home-page">
-      <h3>Hi, My name is</h3>
+      <h3>Hi, Welcome to my portfolio</h3>
       <h2 class="data-text" data-text="Oluwapelumi">Oluwapelumi</h2>
     <h4 class="job">A frontend developer</h4>
     </div>

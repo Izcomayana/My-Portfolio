@@ -19,7 +19,7 @@
       <p>
         <span> <h2>And The Jouney Began...</h2> </span> 
         I started well cause I was motivated and willing to learn,
-        It was pretty easy at the begining when started with HTML & CSS and I finished both within two weeks. 
+        It was pretty easy at the begining when I started with HTML & CSS and I finished both within two weeks. 
         I had some issues though but it wasn't really hard or impossible for me to solve,
         and I had some help too soo I can say it was kinda easy.
       </p>
@@ -48,7 +48,7 @@
         That is why it is of essence to me to know how to use the most software development tools.
         I really wish my code would never have bugs, but that's just a wish. 
         That's why the ability to test and debug is another important technical skill I possess.
-        As a frontend developer, I aam responsible for how websites and applications look, 
+        As a frontend developer, I am responsible for how websites and applications look, 
         so I am challenged to be creative and come up with new solutions to the most common user interface problems.
       </p>
     </div>

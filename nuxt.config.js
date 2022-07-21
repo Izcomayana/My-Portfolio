@@ -22,7 +22,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/styles/main.css'
+    '~/assets/styles/main.css',
   ],
 
   layoutTransition: "fade",
