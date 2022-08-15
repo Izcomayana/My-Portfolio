@@ -12,7 +12,5 @@
     opacity: 0.8;
     width: 45%;
     height: 99vh;
-    /* transform: translateX(-100%);
-    transition: 500ms ease-in-out; */
   }
 </style>
